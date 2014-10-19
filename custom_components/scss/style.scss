@@ -1,0 +1,39 @@
+/**************************************
+Site Name:
+Stylesheet Output: style.css
+
+Include all our SASS files in here
+**************************************/
+
+//import compass
+@import "compass";
+
+//bootstrap
+@import "../../bower_components/bootstrap/dist/css/bootstrap.css";	//get it from the bower components folder
+
+//our variables and mixins
+@import "mixins";
+
+//all headings, paragraph, and copy styles
+@import "typography";
+
+//links
+@import "links";
+
+//swatches for background, foreground, fonts
+@import "swatches";
+
+//alerts boxes and warning indicators
+@import "alerts";
+
+//button styles
+@import "buttons";
+
+//font, button sizes
+@import "sizing";
+
+//form elements and labels
+@import "forms";
+
+//header specific elements
+@import "header";
